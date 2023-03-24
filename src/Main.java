@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+
+        //declare array dimensions as constant values
         final int NUM_ROWS = 4;
         final int NUM_COLS = 4;
 
@@ -39,6 +41,9 @@ public class Main {
             }
             System.out.println("The sum of row " + row + " is " + rowSum);
         }
+
+        //things to talk about when we come back from break:
+        //1) Use .length as a bound and how this works
 
         }
 }
