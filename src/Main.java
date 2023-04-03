@@ -44,6 +44,20 @@ public class Main {
 
         //things to talk about when we come back from break:
         //1) Use .length as a bound and how this works
+        //What does it mean when you do "arrayName.length" with a 2D array?
+        //What does it mean when you do "arrayName[n].length" with a 2D array?
+
+        //array of grades with student n in each row and test n in each column
+
+        int[][] gradeBook = {{50,60,70,80,90},
+                             {70, 50, 40, 100},
+                             {100, 50, 60, 80},
+                             {30, 90, 100, 100}};
+
+        //print all the test score
+
+
+
 
         }
 }
