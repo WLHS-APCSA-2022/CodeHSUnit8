@@ -54,7 +54,23 @@ public class Main {
                              {100, 50, 60, 80},
                              {30, 90, 100, 100}};
 
-        //print all the test score
+        //print all the test scores
+        for(int i = 0; i < gradeBook.length;i++){
+            for(int j = 0; j < gradeBook[i].length; j++){
+                System.out.print(gradeBook[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        //print average of test scores for each student
+        for(int student = 0; student < gradeBook.length; student++){
+            double totalPoints = 0.0;
+            for(int exam = 0; exam < gradeBook[student].length; exam++){
+                totalPoints += gradeBook[student][exam];
+            }
+            double average = totalPoints/(gradeBook[student].length);
+            System.out.println("Student " + (student+1)+": Test Average is " + average );
+        }
 
 
 
